@@ -1,0 +1,30 @@
+{
+    "name": "nest-js-app",
+    "version": "1.0.0",
+    "main": "src/main.ts",
+    "scripts": {
+        "test:unit": "jest --config test/jest-unit-test.json --runInBand --coverage",
+        "dev": "nodemon"
+    },
+    "dependencies": {
+        "@nestjs/common": "^8.2.3",
+        "@nestjs/core": "^8.2.3",
+        "@nestjs/platform-fastify": "^8.2.3",
+        "@types/node": "^14.11.5",
+        "async-lock": "^1.3.1",
+        "cli-color": "^2.0.1",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.5.5",
+        "ts-node": "^9.0.0",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "@nestjs/testing": "^8.4.4",
+        "@types/jest": "^26.0.14",
+        "jest": "^26.5.2",
+        "nodemon": "^2.0.5",
+        "supertest": "^5.0.0",
+        "ts-jest": "^26.4.1",
+        "typescript": "^4.0.3"
+    }
+}
